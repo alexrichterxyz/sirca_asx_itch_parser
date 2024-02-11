@@ -1,4 +1,4 @@
-# High-performance parser for ASX ITCH feed data provided by SIRCA
+# High-performance parser for ASX ITCH feed messages provided by SIRCA
 
 This is a highly optimized library for parsing ASX ITCH messages provided by SIRCA. The ASX ITCH feed provides traders with a view of the entire market including full order book activity and trades of thousands of assets. The library is written in C++ (17 or higher).
 
