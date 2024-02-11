@@ -32,7 +32,7 @@ std::int32_t asxitch::message_order_delete<T>::order_book_id() const {
 template <class T>
 asxitch::side_t asxitch::message_order_delete<T>::side() const {
 	return static_cast<asxitch::side_t>(
-	    asxitch::message<T>::component_at(4));
+	    asxitch::message<T>::component_at(4)[0]);
 }
 
 template <class T> const T &asxitch::message_order_delete<T>::symbol() const {
